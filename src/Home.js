@@ -71,6 +71,7 @@ const Home = () => {
         options={options}
         getOptionLabel={(option) => option.title}
         style={{ width: 1000 }}
+        aria-placeholder='本を検索'
         onInputChange={(event, newInputValue) => {
           setInputValue(newInputValue);
         }}
